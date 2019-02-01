@@ -185,10 +185,12 @@ footer a{
 
 
 /* MEDIA Queries */
-/* This line makes it so when the pictures with #featured
-     li get break pointed at 700px width */
 
-@media screen and (max-width: 700px){
+/*002.009 This line makes it so when the pictures with #featured
+     li get break pointed at 768px width (Fluid layout)*/
+
+/*Tablets*/
+@media screen and (max-width: 768px){
 
 #featured li{
     width: 46%
@@ -196,10 +198,11 @@ footer a{
 
 }
 
-/* This query code creates another breaking point at 400px
-     so the images pile up*/
-     
-@media screen and (max-width: 400px){
+/*002.009 This query code creates another breaking point at 480px
+     so the images pile up (Fluid layout) */
+
+  /*Mobiles*/
+@media screen and (max-width: 480px){
 
 #featured li{
     width: 92%
