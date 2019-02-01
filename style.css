@@ -185,6 +185,8 @@ footer a{
 
 
 /* MEDIA Queries */
+/* This line makes it so when the pictures with #featured
+     li get break pointed at 700px width */
 
 @media screen and (max-width: 700px){
 
@@ -194,7 +196,9 @@ footer a{
 
 }
 
-
+/* This query code creates another breaking point at 400px
+     so the images pile up*/
+     
 @media screen and (max-width: 400px){
 
 #featured li{
