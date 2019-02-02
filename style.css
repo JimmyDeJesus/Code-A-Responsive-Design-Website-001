@@ -191,21 +191,54 @@ footer a{
 
 /*Tablets*/
 @media screen and (max-width: 768px){
+  
+  /*002.011 This changes the header of the website so
+          it floats away from the right side*/
+  header nav{
+      float: none;
+      clear: left;
+      width: 100%;
+  }
+  /*002.011 This gets rid of the margin and padding or space above
+        the main bbuttons and the main logo*/
+  header nav ul{
+      margin: 0;
+      padding: 0;
+  }
+  /*002.011 This takes away the margin of the main logo and centralizes it*/
+  h1.logo{
+      margin: 10px auto 0;
+      float: none;
+  }
+  /*002.011 Centralizes the li tags(main buttons %5) so that they fit
+        the browser easily*/
+  header nav ul li{
+      margin: 10px 0;
+      width: 20%;
+      padding: 0;
+      text-align: center;
+  }
+  /*002.011 you can see the images better with the width as a percent(%)*/
+  #featured li{
+      width: 48%
+  }
+  /*002.011 This bit of code centers the footer text so that it is more
+        readable*/
+  footer ul{
+      width: 48%;
+      text-align: center;
+  }
 
-#featured li{
-    width: 46%
-}
+  }
 
-}
+  /*002.009 This query code creates another breaking point at 480px
+       so the images pile up (Fluid layout) */
 
-/*002.009 This query code creates another breaking point at 480px
-     so the images pile up (Fluid layout) */
+    /*Mobiles*/
+  @media screen and (max-width: 480px){
 
-  /*Mobiles*/
-@media screen and (max-width: 480px){
+  #featured li{
+      width: 92%
+  }
 
-#featured li{
-    width: 92%
-}
-
-}
+  }
