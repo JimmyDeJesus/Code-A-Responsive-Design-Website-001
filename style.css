@@ -191,7 +191,7 @@ footer a{
 
 /*Tablets*/
 @media screen and (max-width: 768px){
-  
+
   /*002.011 This changes the header of the website so
           it floats away from the right side*/
   header nav{
@@ -236,9 +236,33 @@ footer a{
 
     /*Mobiles*/
   @media screen and (max-width: 480px){
-
+/*002.013 We used the featured li to adjust the
+   imadges to be vertacally aliegned*/
   #featured li{
-      width: 92%
+      width: 90%;
+      margin:v20px 5%;
   }
+  /*002.013 This line is to readjust the font for
+      readabilaty down in the footer texts*/
+footer ul{
+    width:98%;
+    text-align: center;
 
   }
+/*002.013 This line makes the "The Menu" Line up for a readble mobile viewport */
+  #home-menu li{
+    float: none;/*002.013 This makes it so they arent attached to the left or the right*/
+    width: 96%; /*002.013 Makes it so the words are on one line*/
+    margin: 30px 2% !important; /*002.013  Spaces the menu sentences above and below*/
+
+  }
+/*002.013 We use this line to increase the size of
+    the main title banner(#main-banner). Width increases the total size of the banner
+    and the "left" cuts 40% of the banner on both sides.  */
+#main-banner img{
+    position: relative;
+    width: 180%;
+    left: -40%
+}
+
+}
