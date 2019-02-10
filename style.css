@@ -236,6 +236,51 @@ footer a{
 
     /*Mobiles*/
   @media screen and (max-width: 480px){
+/*--002.015 only want the imadge to show once and appear centered with the background tag */
+ .burger-nav{
+    display: block;
+    height: 40px;
+    width:100%;
+    background:url(images/burger_icon.png) no-repeat 98% center;
+    background-color: #404040;
+    cursor: pointer;
+
+
+ }
+/*--002.015 gets rid of the padding around the burger_icon*/
+ header .wrapper{
+     width:100%;
+     padding:0;
+ }
+ /*--002.015 this line controls the aperence of the
+               menu when the menu is closed*/
+ header nav ul{
+    overflow:hidden;
+    background: #505050;
+    height: 0;
+ }
+/*--002.015 giving the ul list a class of open.
+             when open it should display these styles.*/
+ header nav ul.open{
+   height: auto;
+ }
+/*--002.015  positions the menu's with style
+             when the burger icon is pressed*/
+ header nav ul li{
+    float:none;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+ }
+/*--002.015 fills the menu's with style (coloring and background)*/
+ header nav ul li a{
+   color: #fff;
+   padding: 10px;
+   border-bottom: 1px solid #404040;
+   display: block;
+   margin: 0;
+ }
+
 /*002.013 We used the featured li to adjust the
    imadges to be vertacally aliegned*/
   #featured li{

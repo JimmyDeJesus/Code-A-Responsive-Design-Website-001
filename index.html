@@ -8,11 +8,14 @@
     </head>
 
     <body>
-    
+
         <header>
             <div class="wrapper">
                 <h1 class="logo">Resto</h1>
                 <nav>
+                  <!--002.015 Added a "a class" to the burger emblem to
+                        display the icon on the website-->
+                    <a class="burger-nav"></a>
                     <h2>Main Navigation</h2>
                     <ul>
                         <li><a href="">Our Story</a></li>
@@ -24,13 +27,13 @@
                 </nav>
             </div>
         </header>
-        
+
         <!-- Start homepage content -->
-        
+
         <div id="main-banner">
             <img src="images/banner.jpg" alt="Welcome to Resto">
         </div>
-        
+
         <div class="wrapper">
         <section id="home-menu">
             <h2>Menu</h2>
@@ -77,7 +80,7 @@
                 </li>
             </ul>
         </section>
-        
+
         <section id="featured">
             <ul>
                 <li>
@@ -108,7 +111,7 @@
         </section>
         </div>
         <!-- End homepage content -->
-        
+
         <footer>
             <div class="wrapper">
                 <ul>
@@ -136,7 +139,13 @@
                 </ul>
             </div>
         </footer>
-    
+
     </body>
-    
+<!--002.015 This line is linked to the script cdn-->
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<!--002.015 This menu code is used to reffrence the menu.js file,
+       it is under the previous line because it depends on this line being under-->
+    <script src="menu.js"></script>
+
 </html>
