@@ -29,3 +29,8 @@ https://jimmydejesus.github.io/Code-A-Responsive-Design-Website-001/
     .added <a class="burger-nav"></a> to top of HTML to help manipulate the burger window
     .added a burger image png file from online
     .added and adjusted the style.css with drop down window styles
+
+002.017 | Responsive Images & Polyfills | Assignment 007
+    -added source code for images in the html to show the viewport
+    -added images ramen.jpg, sea-food-bowl.jpg to the images folder
+    -removed the #main-banner code in style.css for better 
