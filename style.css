@@ -304,10 +304,12 @@ footer ul{
 /*002.013 We use this line to increase the size of
     the main title banner(#main-banner). Width increases the total size of the banner
     and the "left" cuts 40% of the banner on both sides.  */
-#main-banner img{
-    position: relative;
-    width: 180%;
-    left: -40%
-}
+      /*002.017 We Removed the #main-banner code so the images fit more intuativlly
+
+      #main-banner img{
+            position: relative;
+            width: 180%;
+            left: -40%
+     }*/
 
 }
