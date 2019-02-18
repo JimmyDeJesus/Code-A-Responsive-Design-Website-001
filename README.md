@@ -33,4 +33,9 @@ https://jimmydejesus.github.io/Code-A-Responsive-Design-Website-001/
 002.017 | Responsive Images & Polyfills | Assignment 007
     -added source code for images in the html to show the viewport
     -added images ramen.jpg, sea-food-bowl.jpg to the images folder
-    -removed the #main-banner code in style.css for better 
+    -removed the #main-banner code in style.css for better
+
+
+002.018 | Responsive Frameworks Introduction |
+
+  -added the bootstrap code to show the basics of setting up styling with prototype bootstrap.
